@@ -15,10 +15,14 @@ print(s4)
 lst = [1, 2, "hello"]
 print(lst)
 print(type(lst))
-'''
 
 n = "34567"
 b = 64821
 
 c = n[2] + b[3]
 print(type(c))
+'''
+
+str = 'f find fox ffffff'
+flist = re.findall('f.+', str)
+print(flist)
